@@ -1,1 +1,1 @@
-web: python google.py
+clock: python google.py
