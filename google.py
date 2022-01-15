@@ -20,6 +20,8 @@ from pandas.core.indexing import maybe_convert_ix
 gc = gspread.service_account(filename='creds.json')
 
 def main():
+    creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    
     try:
         service = build('drive', 'v3', credentials=creds)
 
