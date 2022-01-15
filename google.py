@@ -19,7 +19,7 @@ from pandas.core.indexing import maybe_convert_ix
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/drive']
-gc = gspread.service_account()
+gc = gspread.service_account(filename='token.json')
 
 def main():
     creds = None
