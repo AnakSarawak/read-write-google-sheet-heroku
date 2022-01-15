@@ -1,7 +1,6 @@
 from __future__ import print_function
 
 import os.path
-from turtle import back
 
 from apscheduler.schedulers.background import BackgroundScheduler
 from pytz import HOUR, timezone
