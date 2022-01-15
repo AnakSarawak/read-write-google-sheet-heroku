@@ -17,8 +17,6 @@ import pandas as pd
 import gspread_dataframe as gd
 from pandas.core.indexing import maybe_convert_ix
 
-# If modifying these scopes, delete the file token.json.
-SCOPES = ['https://www.googleapis.com/auth/drive']
 gc = gspread.service_account(filename='creds.json')
 
 def main():
