@@ -17,6 +17,7 @@ import pandas as pd
 import gspread_dataframe as gd
 from pandas.core.indexing import maybe_convert_ix
 
+SCOPES = ['https://www.googleapis.com/auth/drive']
 gc = gspread.service_account(filename='creds.json')
 
 def main():
