@@ -37,7 +37,7 @@ def main():
 
         for item in items:
             # print(u'{0} ({1})'.format(item['name'], item['id']))
-            wb = gc.open('trial2').sheet1
+            wb = gc.open('new_final_list').sheet1
             master_file_id = '1eHX5Ls8RNDhuaFd8h4HHCcE66K4FgjSeEarKZ9nbMfk'
             backup_folder_id = '1uj27Kwq14fWOCzUQi1bD53scf7O2LFud'
 
